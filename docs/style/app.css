@@ -18,14 +18,25 @@ body {
 
 .container {
         max-width: 975px;
+        justify-content: flex-center;
 }
 
 /* ******** */
 
-.image {
+.image1 {
     width: 100%;
+
+    max-width: 925px;
 }
 
+
+.image {
+    width: 100%;
+    max-width: 625px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
 
 
 /*
@@ -66,7 +77,6 @@ sub-font
     font-size: 1.25rem;
     line-height: 1.6;
     margin-top: 1.5rem;
-
 }
 
 .kicker {
@@ -108,14 +118,50 @@ sub-font
     margin-top: 2rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
+
+.label1 {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
 
 .label-text {
     font-size: 1.25rem;
     line-height: 1.25;
     margin-bottom: 0.5rem;
     font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
+
+.label-text1 {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
 
 .note {
     font-size: 0.85rem;
@@ -123,6 +169,22 @@ sub-font
     margin-top: 0.5rem;
     margin-bottom: 1.25rem;
     font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+
+.note1 {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
 }
 .caption  {
     font-size: 1rem;
@@ -130,6 +192,10 @@ sub-font
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
